@@ -97,3 +97,39 @@ body h1 h2 h3 h4 h5 h6 a {
 .bg-color{
     background: #f7f9ff;
 }
+.pricing-item {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+}
+.pricing-item .h3{}
+.pricing-item .h5{}
+.pricing-item  ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 35px;
+}
+.pricing-item ul li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #777;
+   
+}
+.pricing-item ul li span {
+    display: inline-block;
+    color: #6278df;
+    width: 45px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pricing-item-button{}
+.pricing-item-button a {
+    border: #6278df 2px solid;
+    color: #6278df;
+    padding: 14px 30px;
+    font-size: 22px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
